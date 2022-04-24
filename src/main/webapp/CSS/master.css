@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+*{
+	background: #222D32;
+    font-family: 'Roboto', sans-serif;
+    color: #0DB8DE;
+    text-decoration: none;
+}
+
+.container{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	flex-flow: wrap;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content{
+	color: white;
+}
+
+.heading{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.heading_small{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+.master {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+.student {
+	width: 30%;
+}
+
+.master td, .master th {
+  border: 1px solid white;
+  font-size: 20px;
+  text-align: center;
+  padding: 8px;
+}
+
+.master th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #0DB8DE;
+  color: white;
+}

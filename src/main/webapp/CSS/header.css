@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+.body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar{ 
+  position: relative;
+  height: 70px;
+  background-color: #1A2226 !important;
+  align-items: cente;
+  overflow: hidden;
+}
+
+.navbar a{
+  background: none;
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.navbar-right {
+	float: left !important;
+}
+
+
+.navbar-centered a{
+  float: none;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.white i:hover {
+	color: white;
+}
+
+i{
+	background: none;
+}
+
+ i:hover {
+  color: red;
+}
